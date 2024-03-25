@@ -21,9 +21,9 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     node-version: lts/*
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
       #
       # - name: Install Dependencies
       #   run: npm install
